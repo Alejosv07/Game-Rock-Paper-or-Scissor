@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock, Paper or Scissor</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <header class="header">
-        <h1 class="title">Rock, Paper or Scissor</h1>
+      <h1 class="title">Rock, Paper or Scissor</h1>
     </header>
     <main class="main">
-        <div class="score">
-            <div class="mark1">
-                <p class="score--p">USER: <span id="scoreUser">0</span></p>
-            </div>
-            <div class="mark2">
-                <p class="score--p">CPU: <span id="scoreCpu">0</span></p>
-            </div>
+      <div class="score">
+        <div class="mark1">
+          <p class="score--p">USER: <span id="scoreUser">0</span></p>
         </div>
-        <div class="option">
-            <div class="circle" id="papel">
-                <img src="img/rock.png" alt="">
-            </div>
-            <div class="circle" id="piedra">
-                <img src="img/paper.png" alt="">
-            </div>
-            <div class="circle" id="tijera">
-                <img src="img/scissors.png" alt="">
-            </div>
+        <div class="mark2">
+          <p class="score--p">CPU: <span id="scoreCpu">0</span></p>
         </div>
-        <h2 id="event">Hecho por Alejandro Romero</h2>
-        <button id="btnStart" class="btn btn--without">Empezar a jugar</button>
+      </div>
+      <div class="option">
+        <div class="circle" id="papel">
+          <img src="img/rock.png" alt="" />
+        </div>
+        <div class="circle" id="piedra">
+          <img src="img/paper.png" alt="" />
+        </div>
+        <div class="circle" id="tijera">
+          <img src="img/scissors.png" alt="" />
+        </div>
+      </div>
+      <h2 id="event">Hecho por Alejandro Romero</h2>
+      <button id="btnStart" class="btn btn--without">Empezar a jugar</button>
     </main>
+    <article id="svg"></article>
+    <article id="svg2"></article>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
     <script src="js/logica.js"></script>
-</body>
+  </body>
 </html>
